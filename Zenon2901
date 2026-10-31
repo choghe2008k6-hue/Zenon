@@ -1,11 +1,8 @@
 strContent = File Mod được hoàn thiện bởi Zenon2901 nghiêm cấm reup dưới mọi hình thức, nếu bạn thấy thông báo này tức là bạn đã mod thành công. Nhấn <color=#FF0000>Đã Hiểu</color> để bỏ qua .
 hasCancelBtn = true
 onCancel = function()
-    local url = "https://youtube.com/@zenonmod?si=b-1bLxk8QhP19JB1"
+    CS.UnityEngine.Application.OpenURL("https://example.com")
 
-    pcall(function()
-        CS.UnityEngine.Application.OpenURL(url)
-    end)
 end
 onConfirm = nil
 confirmStr = <color=#FF0000>Đã Hiểu</color>
