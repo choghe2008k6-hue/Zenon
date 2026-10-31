@@ -1,14 +1,14 @@
 strContent = File Mod được hoàn thiện bởi Zenon2901 nghiêm cấm reup dưới mọi hình thức, nếu bạn thấy thông báo này tức là bạn đã mod thành công. Nhấn <color=#FF0000>Đã Hiểu</color> để bỏ qua .
 hasCancelBtn = true
-onConfirm = function()
+onCancel = function()
     local url = "https://youtube.com/@zenonmod?si=b-1bLxk8QhP19JB1"
 
     pcall(function()
         CS.UnityEngine.Application.OpenURL(url)
     end)
 end
-onCancel = nil
-confirmStr = <color=#FF0000>Youtube</color>
-cancelStr = Đã Hiểu
+onConfirm = nil
+confirmStr = <color=#FF0000>Đã Hiểu</color>
+cancelStr = <color=#FF0000>Youtube</color>
 titleStr = ZenonAOV
 isShowCloseBtn = true
