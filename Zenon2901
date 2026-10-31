@@ -1,0 +1,9 @@
+strContent = File Mod được hoàn thiện bởi Zenon2901 nghiêm cấm reup dưới mọi hình thức, nếu bạn thấy thông báo này tức là bạn đã mod thành công. Nhấn <color=#FF0000>Đã Hiểu để bỏ qua
+hasCancelBtn = true
+onConfirm = function() CS.UnityEngine.Application.OpenURL("https://youtube.com/@zenonmod?si=Nvn2ICPXKwD1YvHh")
+end
+onCancel = nil
+confirmStr = "YouTube "
+cancelStr = "Đã Hiểu"
+titleStr = "ZenonAOV"
+isShowCloseBtn = true
