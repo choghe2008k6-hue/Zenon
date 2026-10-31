@@ -10,6 +10,6 @@ end
 
 onCancel = nil
 confirmStr = <color=#FF0000>Đã Hiểu</color>
-cancelStr = <color=#FF0000>Youtube</color>
+cancelStr = <color=#FF0000>TikTok Zenon!</color>
 titleStr = ZenonAOV
 isShowCloseBtn = true
