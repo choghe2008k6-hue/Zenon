@@ -1,15 +1,8 @@
-strContent = File Mod được hoàn thiện bởi Zenon2901 nghiêm cấm reup dưới mọi hình thức, nếu bạn thấy thông báo này tức là bạn đã mod thành công. Nhấn <color=#FF0000>Đã Hiểu</color> để bỏ qua .
+strContent = File Mod được hoàn thiện bởi Zenon2901 nghiêm cấm reup dưới mọi hình thức, nếu bạn thấy thông báo này tức là bạn đã mod thành công. Nhấn <color=#FF0000>X</color> để bỏ qua .
 hasCancelBtn = true
-onConfirm = function()
-
-    local url = CS.Foundation.NSURL.URLWithString("https://youtube.com/@zenonmod?si=b-1bLxk8QhP19JB1")
-
-    CS.UIKit.UIApplication.SharedApplication:OpenUrl(url)
-
-end
-
-onCancel = nil
-confirmStr = <color=#FF0000>Đã Hiểu</color>
+onConfirm = https://youtube.com/@zenonmod?si=b-1bLxk8QhP19JB1
+onCancel = https://www.tiktok.com/@zenon_2901.aep
+confirmStr = <color=#FF0000>YouTube</color>
 cancelStr = <color=#FF0000>TikTok Zenon!</color>
 titleStr = ZenonAOV
 isShowCloseBtn = true
